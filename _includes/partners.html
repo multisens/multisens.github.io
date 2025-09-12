@@ -1,0 +1,22 @@
+<section id="partners">
+    <div class="inner">
+        <header class="major">
+            <h2>Parceiros</h2>
+        </header>
+        <div class="row">
+            {% for key_value in site.partners %}
+                {% if key_value[1] %}
+                    <div class="{{ 12 | divided_by: site.partners.size }}u 12u$(small)">
+                        {% if key_value[1].url %}
+                            <a href="{{ key_value[1].url }}" target="_blank">
+                        {% endif %}
+                                <img src="{{ site.baseurl }}/{{ key_value[1].logo }}" alt="" class="logo"/>
+                        {% if key_value[1] %}
+                            </a>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

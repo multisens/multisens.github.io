@@ -14,7 +14,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: projects # accepts "posts", "pages" or projects
 tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
@@ -25,6 +25,23 @@ socials:
   GitHub: https://github.com/multisens
   YouTube: https://www.youtube.com/@multisens
   Itch-io: https://itch.io/profile/gpmm
+
+# partners to present at home
+partners:
+  midiacom:
+    logo: assets/images/logo-midiacom.png
+    url: https://www.midiacom-uff.com.br
+  buglab:
+    logo: assets/images/bug-lab.png
+  great:
+    logo: assets/images/logo-great-peq.png
+    url: https://www.great.ufc.br
+
+# Project pages
+collections:
+  projects:
+    output: true
+    permalink: /projetos/:name
 
 # Build settings
 markdown: kramdown
