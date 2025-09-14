@@ -50,6 +50,7 @@ img {
 			}
 		}
 
+		&.crop,
 		&.main {
 			display: block;
 			margin: (_size(element-margin) * 1.25) 0;
@@ -61,6 +62,14 @@ img {
 
 			@include breakpoint(small) {
 				margin: (_size(element-margin) * 0.75) 0;
+			}
+		}
+
+		&.crop {
+			img {
+				height: 30em;
+				object-fit: cover;
+				object-position: center var(--object-pos-y, 50%);
 			}
 		}
 	}

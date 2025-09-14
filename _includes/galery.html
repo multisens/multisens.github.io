@@ -1,0 +1,16 @@
+{% assign columns = page.galery.size %}
+{% if columns > 4 %}
+    {% assign columns = 4 %}
+{% endif %}
+
+<hr class="major" />
+<div class="row">
+    {% for photo in page.galery %}
+        {% assign class = 12 | divided_by: columns | append: "u" %}
+        <div class="{{ class }}">
+            <span class="image fit">
+                <img src="{{ site.baseurl }}/{{ photo }}" alt=""/>
+            </span>
+        </div>
+    {% endfor %}
+</div>
