@@ -1,0 +1,24 @@
+{% assign projects = site.projects | where_exp: "item", "item.show_home != false" %}
+
+<section id="two" class="spotlights">
+    {% for proj in projects %}
+    <section>
+        <img src="{{ site.baseurl }}/{{ proj.image }}" alt="" data-position="center center" />
+        <div class="content">
+            <div class="inner">
+                <header class="major">
+                    <h3>{{ proj.title }}</h3>
+                </header>
+                {% if proj.description %}
+                    {{ proj.description | markdownify }}
+                {% else %}
+                    {{ proj.content | split: "<!-- more -->" | first }}
+                {% endif %}
+                <ul class="actions">
+					<li><a href="{{ proj.url  | relative_url }}" class="button">Saiba mais</a></li>
+				</ul>
+            </div>
+        </div>
+    </section>
+    {% endfor %}
+</section>

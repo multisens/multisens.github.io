@@ -1,0 +1,25 @@
+{% assign topics = site.data.topics | default: page.topics %}
+
+<div class="row">
+    {% for topic in topics %}
+        {% if forloop.index0 == 0 %}
+            {% assign cell_class = "6u 12u$(small)" %}
+        {% elsif forloop.index0 == 1 %}
+            {% assign cell_class = "6u$ 12u$(small)" %}
+        {% elsif forloop.last %}
+            {% assign cell_class = "4u$ 12u$(medium)" %}
+        {% else %}
+            {% assign cell_class = "4u 12u$(medium)" %}
+        {% endif %}
+        
+        <div class="{{ cell_class }}">
+            <div class="box">
+                <div class="contact-method">
+                    <span class="icon alt {{ topic.icon }}"></span>
+                    <h4>{{ topic.title }}</h4>
+                </div>
+                <p>{{ topic.content }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

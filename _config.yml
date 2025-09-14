@@ -11,11 +11,8 @@ subtitle: Cefet/RJ
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://multisens.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Homepage tiles
-tiles-source: projects # accepts "posts", "pages" or projects
-tiles-count: 6
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
@@ -69,4 +66,5 @@ exclude:
 #   - vendor/ruby/
   - "*.gemspec"
 #   - LICENSE.md
-#   - README.md 
+#   - README.md
+  - "xxx*" 
