@@ -3,7 +3,9 @@
 <section id="two" class="spotlights">
     {% for proj in projects %}
     <section>
-        <img src="{{ site.baseurl }}/{{ proj.image }}" alt="" data-position="center center" />
+        <div class="image">
+            <img src="{{ site.baseurl }}/{{ proj.image }}" alt="" data-position="center center" />
+        </div>
         <div class="content">
             <div class="inner">
                 <header class="major">

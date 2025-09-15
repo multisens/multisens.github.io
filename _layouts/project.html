@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="{{ page.banner_style }}">
+        <div class="inner">
+            <span class="image">
+                <img src="{{ site.baseurl }}/{{ page.banner_image }}" alt="">
+            </span>
+            <header class="major">
+                {% if page.title_logo %}
+                    <img src="{{ site.baseurl }}/{{ page.title_logo }}" alt="" style="height: 4em; margin-left: 50%; transform: translateX(-50%);"/>
+                {% else %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+            </header>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- Highlights -->
+        {% if page.highlights %}
+        <section id="one" style="padding-top: 1em;">
+            <div class="row">
+                {% for info in page.highlights %}
+                {% assign class = "2u" %}
+                {% if forloop.index0 == 0 %}
+                    {% assign spacing = 6 | minus: page.highlights.size %}
+                    {% assign spacing = spacing | prepend: "-" | append: "u " %}
+                    {% assign class = class | prepend: spacing %}
+                {% endif %}
+                <div class="{{ class }}">
+                    <h4 style="text-align: center;">{{ info.title | upcase }}</h4>
+                    <p style="text-align: justify;">{{ info.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+        {% endif %}
+
+        <!-- Short Description -->
+        {% if page.spotlight %}
+        <section id="two" class="spotlights">
+            <section class="{{ page.spotlight.class }}">
+                <div class="image">
+                    <img src="{{ site.baseurl }}/{{ page.spotlight.image }}" alt="" data-position="center center" />
+                </div>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>{{ page.spotlight.title }}</h3>
+                        </header>
+                        <p>{{ page.spotlight.content }}</p>
+                        <ul class="actions">
+                            {% for key_value in page.spotlight.urls %}
+                            <li><a href="{{ key_value[1] }}" class="button" target="_parent">{{ key_value[0] }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        {% endif %}
+        
+        <div class="inner">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
