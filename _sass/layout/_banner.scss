@@ -112,6 +112,21 @@
 		&.style6 { &:after { background-color: _palette(accent6); } }
 		&.style7 { &:after { background-color: _palette(accent7); } }
 
+		&.project {
+			min-height: 32em;
+			flex-direction: column;
+			justify-content: flex-start;
+
+			.highlight {
+				width: 100%;
+				position: relative;
+				z-index: 2;
+				margin-top: auto;
+				padding-bottom: 2em;
+				padding-top: 6em;
+			}
+		}
+
 		body.is-loading & {
 			&:after {
 				opacity: 1.0;

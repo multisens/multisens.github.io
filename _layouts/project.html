@@ -13,7 +13,7 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="{{ page.banner_style }}">
+    <section id="banner" class="{{ page.banner_style }} {% if page.highlights %}project{% endif %}">
         <div class="inner">
             <span class="image">
                 <img src="{{ site.baseurl }}/{{ page.banner_image }}" alt="">
@@ -26,14 +26,10 @@
                 {% endif %}
             </header>
         </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
 
         <!-- Highlights -->
         {% if page.highlights %}
-        <section id="one" style="padding-top: 1em;">
+        <section id="highlight" class="highlight">
             <div class="row">
                 {% for info in page.highlights %}
                 {% assign class = "2u" %}
@@ -43,13 +39,17 @@
                     {% assign class = class | prepend: spacing %}
                 {% endif %}
                 <div class="{{ class }}">
-                    <h4 style="text-align: center;">{{ info.title | upcase }}</h4>
-                    <p style="text-align: justify;">{{ info.description }}</p>
+                    <h4 class="bg_color" style="text-align: center; color: #242943;">{{ info.title | upcase }}</h4>
+                    <p style="text-align: justify; color: #242943;">{{ info.description }}</p>
                 </div>
                 {% endfor %}
             </div>
         </section>
         {% endif %}
+    </section>
+
+    <!-- Main -->
+    <div id="main">
 
         <!-- Short Description -->
         {% if page.spotlight %}
