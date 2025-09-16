@@ -63,7 +63,7 @@
                         <header class="major">
                             <h3>{{ page.spotlight.title }}</h3>
                         </header>
-                        <p>{{ page.spotlight.content }}</p>
+                        {{ page.spotlight.content | markdownify}}
                         <ul class="actions">
                             {% for key_value in page.spotlight.urls %}
                             <li><a href="{{ key_value[1] }}" class="button" target="_parent">{{ key_value[0] }}</a></li>
