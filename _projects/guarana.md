@@ -45,7 +45,7 @@ Assim como em NCL, todo o comportamento da cena é definida indicando as mídias
 
 ## Arquitetura
 
-{% include canvas.html src="assets/images/proj-guarana/arquitetura_pt.png" height="270px" %}
+
 
 A arquitetura do motor Guaraná é definida para possibilitar a integração de tecnologias de VR em apresentações multimídia interativas na TV. A arquitetura proposta se baseia no uso de dispositivos HMD como uma “segunda tela” da aplicação de TV. Desta forma, enquanto a TV apresenta o conteúdo trandicional de uma aplicação, usuários com HMD podem assistir a um formato imersivo como um conteúdo adicional.
 
