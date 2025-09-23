@@ -27,12 +27,19 @@ socials:
 partners:
   midiacom:
     logo: assets/images/logo-midiacom.png
+    name: "Laboratório Mídiacom"
     url: https://www.midiacom-uff.com.br
   buglab:
     logo: assets/images/bug-lab.png
+    name: "Bug Lab"
   great:
     logo: assets/images/logo-great-peq.png
+    name: "GREat"
     url: https://www.great.ufc.br
+  limno:
+    logo: assets/images/logo-limno.png
+    name: "Laboratório de Limnologia da UFRJ"
+    url: http://www.intranet.biologia.ufrj.br/limnologia
 
 # Project pages
 collections:
