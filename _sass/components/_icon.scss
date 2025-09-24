@@ -48,3 +48,23 @@
 			}
 		}
 	}
+
+	.social-icon {
+		background-color: _palette(fg-bold);
+		border-radius: 100%;
+		color: _palette(bg);
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: 2em;
+		width: 2em;
+		text-decoration: none;
+
+		> .label {
+			display: none;
+		}
+	}
+
+	.social-icon:hover {
+		background-color: _palette(accent1);
+	}
