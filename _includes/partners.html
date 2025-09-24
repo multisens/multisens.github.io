@@ -7,6 +7,7 @@
             {% for key_value in site.partners %}
                 {% if key_value[1] %}
                     <div class="{{ 12 | divided_by: site.partners.size }}u 12u$(small)">
+                        <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
                         {% if key_value[1].url %}
                             <a href="{{ key_value[1].url }}" target="_blank">
                         {% endif %}
@@ -14,6 +15,7 @@
                         {% if key_value[1] %}
                             </a>
                         {% endif %}
+                        </div>
                     </div>
                 {% endif %}
             {% endfor %}
