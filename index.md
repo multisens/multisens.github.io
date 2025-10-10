@@ -2,7 +2,7 @@
 layout: home
 title: Home
 show_tile: false
-logo: assets/images/logo-name-multisens.png
+logo: assets/images/logo-name-multisens-branco.png
 tiles-source: posts # accepts "posts", "pages" or projects
 tiles-count: 6
 
