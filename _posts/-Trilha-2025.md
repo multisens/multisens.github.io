@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Equipe do MultiSenS+Trilha apresenta Artigo na SBGames 2025"
+description: "Confira o artigo publicado na página do SBGames 2025 ou na página do SBC."
+image: assets/images/pics/Trilha_SBGames_2025(1).jpg
+show_banner: true
+galery:
+  - assets/images/pics/Trilha_SBGames_2025.jpg
+  - assets/images/pics/Trilha_SBGames_2025.jpg
+---
+
+Durante a SBGames 2025 a equipe apresentou o trabalho sobre otimização de ambientes virtuais enviezados que pode ser visto abaixo <br>
+
+CRUZ, Lucas Rangel da; SANTOS, Nicole Cristina Vieira dos; SOUZA, Luiz André de; OLIVEIRA, Andressa dos Santos; SILVA, Marcelo Arêas Rodrigues da; SANTOS, Joel André Ferreira dos. Trails of Performance: A Study of Real Time Optimization Techniques in Heterogeneous Natural Environments for VR. In: SIMPÓSIO BRASILEIRO DE JOGOS E ENTRETENIMENTO DIGITAL (SBGAMES), 24. , 2025, Salvador/BA. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2025 . p. 714-725. DOI: https://doi.org/10.5753/sbgames.2025.10340.
