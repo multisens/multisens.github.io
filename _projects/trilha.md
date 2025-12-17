@@ -44,7 +44,6 @@ A versão em RV do jogo de tabuleiro “Aventura na Trilha da Lagoa da Mata”, 
 
 ## Arquitetura
 
-```mermaid
     flowchart LR
         User[Usuário]
         web[Acesso Web]
@@ -64,7 +63,7 @@ A versão em RV do jogo de tabuleiro “Aventura na Trilha da Lagoa da Mata”, 
         web --> Front
         Frontend -->|WebSocket| Backend
         Frontend -.->|Continuidade definida pelo usuário| Frontend
-```
+
 
 A arquitetura do Trilha foi desenvolvida a fim de permitir multíplas conexões ao backend, e este trata os dados tanto para exibição do Frontend para análise dos dados quanto para prosseguir com o jogo.
 Apesar de atualmente o backend estar mockado, já possui suporte integrado e facilitado para inserção de um bd.
