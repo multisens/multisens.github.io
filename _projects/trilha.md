@@ -5,7 +5,7 @@ show_home: true
 title: Aventura na Trilha Lagoa da Mata
 title_logo: assets/images/trilha/trilhaLagoa.png
 banner_image: assets/images/trilha/trilhaMapa.png
-banner_style: style7 # 1 to 7
+banner_style: style6 # 1 to 7
 
 image: assets/images/trilha/trilhaFotogrametria.png
 description: Fotogrametria Realizada na trilha Lagoa da Mata para acréscimo ao jogo virtual.
