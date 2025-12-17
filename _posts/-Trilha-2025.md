@@ -2,11 +2,11 @@
 layout: post
 title: "Equipe do MultiSenS + Trilha apresenta Artigo na SBGames 2025"
 description: "Confira o artigo publicado na página do SBGames 2025 ou na página do SBC."
-image: assets/images/pics/Trilha_SBGames_2025(1).jpg
+image: assets/images/Trilha_SBGames_2025(1).jpg
 show_banner: true
 galery:
-  - assets/images/pics/Trilha_SBGames_2025(1).jpg
-  - assets/images/pics/Trilha_SBGames_2025.jpg
+  - assets/images/Trilha_SBGames_2025(1).jpg
+  - assets/images/Trilha_SBGames_2025.jpg
 ---
 
 Durante a SBGames 2025 a equipe apresentou o trabalho sobre otimização de ambientes virtuais enviezados que pode ser visto abaixo <br>

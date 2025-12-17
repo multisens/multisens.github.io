@@ -5,7 +5,7 @@ show_home: true
 title: Aventura na Trilha Lagoa da Mata
 title_logo: assets/images/trilha/trilhaLagoa.png
 banner_image: assets/images/trilha/trilhaMapa.png
-banner_style: style6 # 1 to 7
+banner_style: style7 # 1 to 7
 
 image: assets/images/trilha/trilhaFotogrametria.png
 description: Fotogrametria Realizada na trilha Lagoa da Mata para acréscimo ao jogo virtual.
@@ -39,9 +39,6 @@ spotlight:
 ## Descrição Declarativa
 
 A versão em RV do jogo de tabuleiro “Aventura na Trilha da Lagoa da Mata”, desenvolvido pela equipe do Laboratório de Limnologia da UFRJ (doravante chamado de TLM) foi desenvolvida com a intenção de aprimorar a imersão do jogador, integrando características presentes na trilha para fazê-lo ter uma experiência mais próxima da realidade.
-
-
-
 
 <br>
 
