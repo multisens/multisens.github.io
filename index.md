@@ -6,7 +6,7 @@ logo: assets/images/logo-name-multisens-branco.png
 tiles-source: posts # accepts "posts", "pages" or projects
 tiles-count: 10
 
-landing-title: 'Laboratório - MultiSenS'
+landing-title: 'Laboratório MultiSenS'
 description: >
     O Laboratório de Espaços e Aplicações Multimídia Multissensoriais Imersivas é formado por docentes do
     Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ). O grupo tem uma atuação ampla,

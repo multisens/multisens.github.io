@@ -1,41 +1,45 @@
+---
+layout: project
+show_home: true
 
+title: Aventura na Trilha Lagoa da Mata
+title_logo: assets/images/trilha/trilhaLagoa.png
+banner_image: assets/images/trilha/trilhaMapa.png
+banner_style: style7 # 1 to 7
 
-<table>
+image: assets/images/trilha/trilhaFotogrametria.png
+description: Fotogrametria Realizada na trilha Lagoa da Mata para acréscimo ao jogo virtual.
 
-<tr>
-<th>Tela:</th>
-<th>ID:</th>
-<th>Descrição</th>
-</tr>
-<tr>
-<td>Menu</td>
-<td>1</td>
-<td>Tela onde acontece a Entrada do jogador, ele coloca seu nome e entra na sala designada (atualmente fixada em 1)</td>
-</tr>
-<tr>
-<td>Jogo (V2)</td>
-<td>2</td>
-<td>Tela principal do jogo em realidade virtual, onde o jogador percorre a trilha
+highlights:
+  - title: Menu
+    description: Tela onde acontece a Entrada do jogador, ele coloca seu nome e entra na sala designada (atualmente fixada em 1)
+  - title: Jogo
+    description: Tela principal do jogo em realidade virtual, onde o jogador percorre a trilha
 em formato de tabuleiro virtual. O avanço ocorre a partir do lançamento do dado,
 permitindo a movimentação do peão ao longo dos ladrilhos. Durante o percurso,
 o jogador interage com cartas de desafio, perguntas educativas, objetos
 explorativos e elementos informativos do ambiente. As respostas, ações e
-pontuações são registradas e enviadas ao servidor em tempo real via WebSocket,
-permitindo a análise posterior dos dados do jogo.</td>
-</tr>
-<tr>
-<td>EndGame</td>
-<td>3</td>
-<td>Tela onde acontece a Saida ou Reentrada do jogador no game, ele seleciona o botão e entra na sala em que estava (atualmente fixada em 1) ou sai do jogo</td>
-</tr>
-</table>
+pontuações são registradas e enviadas ao servidor em tempo real via WebSocket, permitindo a análise posterior dos dados do jogo.
+  - title: EndGame
+    description: Tela onde acontece a Saida ou Reentrada do jogador no game, ele seleciona o botão e entra na sala em que estava (atualmente fixada em 1) ou sai do jogo.
 
+spotlight:
+  class: custom-right # first element orientation: custom-right, custom-left
+  title: Cenas 360 Interativas
+  image: assets/images/trilha/trilhaLagoa.png
+  content: |
+    O ambiente virtual objeto deste trabalho foi desenvolvido para uma experiência em 6DoF (“Six degrees of freedom”), em que a interação do jogador com o ambiente e seus respectivos movimentos são fundamentais. Partindo deste princípio, para desenvolver o ambiente em realidade virtual RV foi utilizado o Framework Unity 3D e, para a conexão entre jogadores, o nodeJS..
+    
+    O Ambiente Virtual 'Trilha' está disponível no GitHub.
+  urls:
+    Código: https://github.com/multisens/Jogo-Trilha-Lagoa-da-Mata
+    Documentação: https://github.com/multisens/Jogo-Trilha-Lagoa-da-Mata/blob/main/README.md
+---
 
 ## Descrição Declarativa
 
-A linguagem NCL360 define uma notação simplificada para a criação de uma cena 360 a ser executada no motor de apresentação Guaraná. A notação é baseada na linguagem NCL, permitindo a criação da cena num formato similar aquele usado para a criação de aplicações multimídia interativas.
+A versão em RV do jogo de tabuleiro “Aventura na Trilha da Lagoa da Mata”, desenvolvido pela equipe do Laboratório de Limnologia da UFRJ (doravante chamado de TLM) foi desenvolvida com a intenção de aprimorar a imersão do jogador, integrando características presentes na trilha para fazê-lo ter uma experiência mais próxima da realidade.
 
-Assim como em NCL, todo o comportamento da cena é definida indicando as mídias que fazem parte da cena e os *links* que definem quando cada mídia é executada. Diferente da linguagem NCL tradicional, NCL360 posiciona as mídas ao redor do usuário, formando um cenário em 360º.
 
 
 
