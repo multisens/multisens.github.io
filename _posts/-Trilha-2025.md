@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Equipe do MultiSenS+Trilha apresenta Artigo na SBGames 2025"
+title: "Equipe do MultiSenS + Trilha apresenta Artigo na SBGames 2025"
 description: "Confira o artigo publicado na página do SBGames 2025 ou na página do SBC."
 image: assets/images/pics/Trilha_SBGames_2025(1).jpg
 show_banner: true
 galery:
-  - assets/images/pics/Trilha_SBGames_2025.jpg
+  - assets/images/pics/Trilha_SBGames_2025(1).jpg
   - assets/images/pics/Trilha_SBGames_2025.jpg
 ---
 
