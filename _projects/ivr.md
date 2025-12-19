@@ -4,7 +4,7 @@ show_home: true
 
 title: iVR Multissensorial
 
-title_logo: assets/images/placeholder-logo.png 
+title_logo: assets/images/ivr-logo.png #Se tiver uma logo depois
 banner_image: assets/images/proj-ivr/ivr-banner.png
 banner_style: style7
 
@@ -24,7 +24,6 @@ highlights:
 spotlight:
   class: custom-right
   title: Abordagem Declarativa
-  # Sugestão: Uma imagem ilustrando a arquitetura ou o conceito
   image: assets/images/placeholder-spotlight.png
   content: |
     O projeto parte da hipótese de que experiências de Realidade Virtual Imersiva (iVR) podem ser descritas de forma declarativa, facilitando a criação por desenvolvedores iniciantes.
