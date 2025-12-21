@@ -1,6 +1,6 @@
 ---
 layout: project
-show_home: false
+show_home: true
 
 title: Aventura na Trilha Lagoa da Mata
 title_logo: assets/images/trilha/trilhaLagoa.png
@@ -14,16 +14,11 @@ highlights:
   - title: Menu
     description: Tela onde acontece a Entrada do jogador, ele coloca seu nome e entra na sala designada (atualmente fixada em 1)
   - title: Jogo
-    description: Tela principal do jogo em realidade virtual, onde o jogador percorre a trilha
-em formato de tabuleiro virtual. O avanço ocorre a partir do lançamento do dado,
-permitindo a movimentação do peão ao longo dos ladrilhos. Durante o percurso,
-o jogador interage com cartas de desafio, perguntas educativas, objetos
-explorativos e elementos informativos do ambiente. As respostas, ações e
-pontuações são registradas e enviadas ao servidor em tempo real via WebSocket, permitindo a análise posterior dos dados do jogo.
+    description: Tela principal do jogo em realidade virtual, onde o jogador percorre a trilha em formato de tabuleiro virtual. O avanço ocorre a partir do lançamento do dado, permitindo a movimentação do peão ao longo dos ladrilhos.
+  - title: --
+  description: --
   - title: EndGame
     description: Tela onde acontece a Saida ou Reentrada do jogador no game, ele seleciona o botão e entra na sala em que estava (atualmente fixada em 1) ou sai do jogo.
-  - title: .
-  description: .
 
 
 spotlight:
@@ -41,14 +36,11 @@ spotlight:
 
 ## Descrição Declarativa
 
-![](/assets/images/proj-guarana/code.png){: .image .left}
-
 A versão em RV do jogo de tabuleiro “Aventura na Trilha da Lagoa da Mata”, desenvolvido pela equipe do Laboratório de Limnologia da UFRJ (doravante chamado de TLM) foi desenvolvida com a intenção de aprimorar a imersão do jogador, integrando características presentes na trilha para fazê-lo ter uma experiência mais próxima da realidade.
 
 <br>
 
 ## Arquitetura
-![](/assets/images/proj-guarana/arquitetura_pt.png){: .image .fit}
 
     flowchart LR
         User[Usuário]
