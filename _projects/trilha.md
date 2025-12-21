@@ -15,8 +15,6 @@ highlights:
     description: Tela onde acontece a Entrada do jogador, ele coloca seu nome e entra na sala designada (atualmente fixada em 1)
   - title: Jogo
     description: Tela principal do jogo em realidade virtual, onde o jogador percorre a trilha em formato de tabuleiro virtual. O avanço ocorre a partir do lançamento do dado, permitindo a movimentação do peão ao longo dos ladrilhos.
-  - title: --
-  description: --
   - title: EndGame
     description: Tela onde acontece a Saida ou Reentrada do jogador no game, ele seleciona o botão e entra na sala em que estava (atualmente fixada em 1) ou sai do jogo.
 
@@ -26,11 +24,11 @@ spotlight:
   title: Cenas Interativas
   image: assets/images/trilha/trilhaLagoa.png
   content: |
-    O ambiente virtual objeto deste trabalho foi desenvolvido para uma experiência em 6DoF (“Six degrees of freedom”), em que a interação do jogador com o ambiente e seus respectivos movimentos são fundamentais. Partindo deste princípio, para desenvolver o ambiente em realidade virtual RV foi utilizado o Framework Unity 3D e, para a conexão entre jogadores, o nodeJS..
-    
+    O ambiente virtual objeto deste trabalho foi desenvolvido para uma experiência em 6DoF (“Six degrees of freedom”), em que a interação do jogador com o ambiente e seus respectivos movimentos são fundamentais. Partindo deste princípio, para desenvolver o ambiente em realidade virtual RV foi utilizado o Framework Unity 3D e, para a conexão entre jogadores, o nodeJS.
+
     O Ambiente Virtual Trilha está disponível no GitHub.
   urls:
-    Código: https://github.com/multisens/Jogo-Trilha-Lagoa-da-Mata
+    Código: https://github.com/multisens/Jogo-Trilha-Lagoa-da-Mata 
     Documentação: https://github.com/multisens/Jogo-Trilha-Lagoa-da-Mata/blob/main/README.md
 ---
 
