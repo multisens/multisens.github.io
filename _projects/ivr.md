@@ -38,7 +38,9 @@ spotlight:
 
 A Realidade Virtual Imersiva (iVR) permite criar ambientes complexos e realistas. No entanto, muitas experiências focam apenas em visão e audição. Este projeto busca ampliar a gama de estímulos sensoriais (mulsemídia) para aumentar a imersão e promover a acessibilidade, permitindo que estímulos alternativos sejam escolhidos conforme o perfil do usuário (ex: PcD).
 
-Para superar a complexidade de desenvolvimento desses ambientes, propomos uma abordagem declarativa baseada na extensão da linguagem NCL e do motor de apresentação Guaraná (originalmente focado na TV 3.0).
+Para superar a complexidade de desenvolvimento desses ambientes, propomos uma abordagem declarativa baseada na extensão da linguagem NCL e do motor de apresentação Guaraná (originalmente focado na TV 3.0). 
+
+Esse projeto é realizado com fomento CNPq, edital Universal.
 
 <br>
 

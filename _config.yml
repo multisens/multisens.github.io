@@ -46,6 +46,8 @@ collections:
   projects:
     output: true
     permalink: /projetos/:name
+  products:
+    output: true
 
 # Build settings
 markdown: kramdown
