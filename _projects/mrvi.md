@@ -5,10 +5,10 @@ show_home: true
 title: iVR Multissensorial
 
 title_logo: assets/images/ivr-logo.png #Se tiver uma logo depois
-banner_image: assets/images/proj-ivr/ivr-banner.png
+banner_image: assets/images/proj-mrvi/ivr-banner.png
 banner_style: style7
 
-image: assets/images/proj-ivr/ivr-card.png
+image: assets/images/proj-mrvi/ivr-card.png
 description: Uma abordagem declarativa para a criação de experiências multissensoriais imersivas, interativas e acessíveis, estendendo a linguagem NCL e o motor Guaraná.
 
 highlights:
